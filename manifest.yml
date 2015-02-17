@@ -1,0 +1,12 @@
+applications:
+- disk_quota: 1024M
+  host: zt-jr-test
+  name: zt-jr-test
+  path: target/petclinic.war
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 768M
+  buildpack: "https://github.com/dmitri-gb/ibm-websphere-liberty-buildpack.git"
+env:
+  IBM_JVM_LICENSE: L-EWOD-99YA4J
+  IBM_LIBERTY_LICENSE: L-JTHS-95XRL8
